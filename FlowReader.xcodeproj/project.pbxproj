@@ -202,6 +202,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = com.sideapps.flowreader;
 				TargetAttributes = {
+					5196FC40192E5C9C00F68E7A = {
+						DevelopmentTeam = S7BT87895F;
+					};
 					5196FC64192E5C9C00F68E7A = {
 						TestTargetID = 5196FC40192E5C9C00F68E7A;
 					};
@@ -390,10 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlowReader/FlowReader-Prefix.pch";
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +410,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlowReader/FlowReader-Prefix.pch";
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +481,7 @@
 				5196FC78192E5C9C00F68E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5196FC79192E5C9C00F68E7A /* Build configuration list for PBXNativeTarget "FlowReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +490,7 @@
 				5196FC7B192E5C9C00F68E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
