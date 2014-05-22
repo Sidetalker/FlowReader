@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514852B0192E67A10025B879 /* UbertestersSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852AE192E67A10025B879 /* UbertestersSDK.framework */; };
+		514852B1192E67A10025B879 /* UbertestersSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 514852AF192E67A10025B879 /* UbertestersSDKResources.bundle */; };
+		514852B3192E67BE0025B879 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852B2192E67BE0025B879 /* AdSupport.framework */; };
+		514852B5192E67C30025B879 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852B4192E67C30025B879 /* QuartzCore.framework */; };
+		514852B7192E67C80025B879 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852B6192E67C80025B879 /* CoreImage.framework */; };
+		514852B9192E67CE0025B879 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852B8192E67CE0025B879 /* SystemConfiguration.framework */; };
+		514852BB192E67D20025B879 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852BA192E67D20025B879 /* CoreTelephony.framework */; };
+		514852BD192E67D70025B879 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852BC192E67D70025B879 /* CoreLocation.framework */; };
+		514852BF192E67DC0025B879 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852BE192E67DC0025B879 /* AudioToolbox.framework */; };
+		514852C1192E67E10025B879 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852C0192E67E10025B879 /* CoreMotion.framework */; };
+		514852C3192E67E60025B879 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852C2192E67E60025B879 /* OpenGLES.framework */; };
 		5196FC45192E5C9C00F68E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC44192E5C9C00F68E7A /* Foundation.framework */; };
 		5196FC47192E5C9C00F68E7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC46192E5C9C00F68E7A /* CoreGraphics.framework */; };
 		5196FC49192E5C9C00F68E7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC48192E5C9C00F68E7A /* UIKit.framework */; };
@@ -35,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		514852AE192E67A10025B879 /* UbertestersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UbertestersSDK.framework; sourceTree = "<group>"; };
+		514852AF192E67A10025B879 /* UbertestersSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UbertestersSDKResources.bundle; sourceTree = "<group>"; };
+		514852B2192E67BE0025B879 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		514852B4192E67C30025B879 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		514852B6192E67C80025B879 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		514852B8192E67CE0025B879 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		514852BA192E67D20025B879 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		514852BC192E67D70025B879 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		514852BE192E67DC0025B879 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		514852C0192E67E10025B879 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		514852C2192E67E60025B879 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		5196FC41192E5C9C00F68E7A /* FlowReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5196FC44192E5C9C00F68E7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5196FC46192E5C9C00F68E7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +84,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514852B5192E67C30025B879 /* QuartzCore.framework in Frameworks */,
+				514852C3192E67E60025B879 /* OpenGLES.framework in Frameworks */,
+				514852C1192E67E10025B879 /* CoreMotion.framework in Frameworks */,
+				514852BF192E67DC0025B879 /* AudioToolbox.framework in Frameworks */,
+				514852BD192E67D70025B879 /* CoreLocation.framework in Frameworks */,
+				514852BB192E67D20025B879 /* CoreTelephony.framework in Frameworks */,
+				514852B9192E67CE0025B879 /* SystemConfiguration.framework in Frameworks */,
+				514852B7192E67C80025B879 /* CoreImage.framework in Frameworks */,
+				514852B3192E67BE0025B879 /* AdSupport.framework in Frameworks */,
 				5196FC47192E5C9C00F68E7A /* CoreGraphics.framework in Frameworks */,
 				5196FC49192E5C9C00F68E7A /* UIKit.framework in Frameworks */,
+				514852B0192E67A10025B879 /* UbertestersSDK.framework in Frameworks */,
 				5196FC45192E5C9C00F68E7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,9 +113,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514852AD192E67A10025B879 /* UbertestersSDK */ = {
+			isa = PBXGroup;
+			children = (
+				514852AE192E67A10025B879 /* UbertestersSDK.framework */,
+				514852AF192E67A10025B879 /* UbertestersSDKResources.bundle */,
+			);
+			path = UbertestersSDK;
+			sourceTree = "<group>";
+		};
 		5196FC38192E5C9C00F68E7A = {
 			isa = PBXGroup;
 			children = (
+				514852AD192E67A10025B879 /* UbertestersSDK */,
 				5196FC4A192E5C9C00F68E7A /* FlowReader */,
 				5196FC6C192E5C9C00F68E7A /* FlowReaderTests */,
 				5196FC43192E5C9C00F68E7A /* Frameworks */,
@@ -103,6 +145,15 @@
 		5196FC43192E5C9C00F68E7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				514852C2192E67E60025B879 /* OpenGLES.framework */,
+				514852C0192E67E10025B879 /* CoreMotion.framework */,
+				514852BE192E67DC0025B879 /* AudioToolbox.framework */,
+				514852BC192E67D70025B879 /* CoreLocation.framework */,
+				514852BA192E67D20025B879 /* CoreTelephony.framework */,
+				514852B8192E67CE0025B879 /* SystemConfiguration.framework */,
+				514852B6192E67C80025B879 /* CoreImage.framework */,
+				514852B4192E67C30025B879 /* QuartzCore.framework */,
+				514852B2192E67BE0025B879 /* AdSupport.framework */,
 				5196FC44192E5C9C00F68E7A /* Foundation.framework */,
 				5196FC46192E5C9C00F68E7A /* CoreGraphics.framework */,
 				5196FC48192E5C9C00F68E7A /* UIKit.framework */,
@@ -234,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514852B1192E67A10025B879 /* UbertestersSDKResources.bundle in Resources */,
 				5196FC5B192E5C9C00F68E7A /* Main_iPad.storyboard in Resources */,
 				5196FC60192E5C9C00F68E7A /* Images.xcassets in Resources */,
 				5196FC58192E5C9C00F68E7A /* Main_iPhone.storyboard in Resources */,
@@ -394,6 +446,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UbertestersSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlowReader/FlowReader-Prefix.pch";
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";
@@ -411,6 +467,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UbertestersSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlowReader/FlowReader-Prefix.pch";
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";

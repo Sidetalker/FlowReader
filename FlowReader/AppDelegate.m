@@ -12,6 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Other stuff
+    
+    // Ubertersters SDK initialization
+    [[Ubertesters shared] initialize];
+    
     // Override point for customization after application launch.
     return YES;
 }

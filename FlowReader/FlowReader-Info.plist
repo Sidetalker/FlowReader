@@ -45,5 +45,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ubertesters_project_id</key>
+	<string>aa4b9258-e1d5-11e3-a44d-22000ac44c54</string>
 </dict>
 </plist>
