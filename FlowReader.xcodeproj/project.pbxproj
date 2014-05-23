@@ -18,6 +18,8 @@
 		514852BF192E67DC0025B879 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852BE192E67DC0025B879 /* AudioToolbox.framework */; };
 		514852C1192E67E10025B879 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852C0192E67E10025B879 /* CoreMotion.framework */; };
 		514852C3192E67E60025B879 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514852C2192E67E60025B879 /* OpenGLES.framework */; };
+		514852C9192EC4D50025B879 /* OSSpritz.m in Sources */ = {isa = PBXBuildFile; fileRef = 514852C6192EC4D50025B879 /* OSSpritz.m */; };
+		514852CA192EC4D50025B879 /* OSSpritzLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514852C8192EC4D50025B879 /* OSSpritzLabel.m */; };
 		5196FC45192E5C9C00F68E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC44192E5C9C00F68E7A /* Foundation.framework */; };
 		5196FC47192E5C9C00F68E7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC46192E5C9C00F68E7A /* CoreGraphics.framework */; };
 		5196FC49192E5C9C00F68E7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196FC48192E5C9C00F68E7A /* UIKit.framework */; };
@@ -57,6 +59,10 @@
 		514852BE192E67DC0025B879 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		514852C0192E67E10025B879 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		514852C2192E67E60025B879 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		514852C5192EC4D50025B879 /* OSSpritz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSpritz.h; sourceTree = "<group>"; };
+		514852C6192EC4D50025B879 /* OSSpritz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpritz.m; sourceTree = "<group>"; };
+		514852C7192EC4D50025B879 /* OSSpritzLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSpritzLabel.h; sourceTree = "<group>"; };
+		514852C8192EC4D50025B879 /* OSSpritzLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpritzLabel.m; sourceTree = "<group>"; };
 		5196FC41192E5C9C00F68E7A /* FlowReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5196FC44192E5C9C00F68E7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5196FC46192E5C9C00F68E7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,9 +128,21 @@
 			path = UbertestersSDK;
 			sourceTree = "<group>";
 		};
+		514852C4192EC4D40025B879 /* OSSpritz */ = {
+			isa = PBXGroup;
+			children = (
+				514852C5192EC4D50025B879 /* OSSpritz.h */,
+				514852C6192EC4D50025B879 /* OSSpritz.m */,
+				514852C7192EC4D50025B879 /* OSSpritzLabel.h */,
+				514852C8192EC4D50025B879 /* OSSpritzLabel.m */,
+			);
+			path = OSSpritz;
+			sourceTree = "<group>";
+		};
 		5196FC38192E5C9C00F68E7A = {
 			isa = PBXGroup;
 			children = (
+				514852C4192EC4D40025B879 /* OSSpritz */,
 				514852AD192E67A10025B879 /* UbertestersSDK */,
 				5196FC4A192E5C9C00F68E7A /* FlowReader */,
 				5196FC6C192E5C9C00F68E7A /* FlowReaderTests */,
@@ -309,8 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5196FC5E192E5C9C00F68E7A /* ViewController.m in Sources */,
+				514852CA192EC4D50025B879 /* OSSpritzLabel.m in Sources */,
 				5196FC55192E5C9C00F68E7A /* AppDelegate.m in Sources */,
 				5196FC51192E5C9C00F68E7A /* main.m in Sources */,
+				514852C9192EC4D50025B879 /* OSSpritz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +475,7 @@
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F4BE306B-61BD-4FB0-BEEB-4D119458FCFD";
 				SDKROOT = iphoneos7.0;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -476,6 +497,7 @@
 				INFOPLIST_FILE = "FlowReader/FlowReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F4BE306B-61BD-4FB0-BEEB-4D119458FCFD";
 				SDKROOT = iphoneos7.0;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;

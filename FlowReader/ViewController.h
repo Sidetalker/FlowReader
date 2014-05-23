@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "OSSpritzLabel.h"
+
 @interface ViewController : UIViewController
 
+- (IBAction)btnStartTouch:(id)sender;
+- (IBAction)btnStopTouch:(id)sender;
+
 @end
+
+OSSpritzLabel *osLabel;
